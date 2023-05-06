@@ -1,13 +1,9 @@
-var SELECTED_ID
-
 const express = require('express');
 const app = express();
 const bodyParser = require('body-parser');
 
 const sqlite3 = require("sqlite3");
 const { error } = require('console');
-const exp = require('constants');
-const { getRandomValues } = require('crypto');
 const db = new sqlite3.Database('CURRICULO.db', (err) =>{
     if(err){
         console.error(err)
