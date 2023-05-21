@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADD Formação</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="/"><button>Curriculo</button></a>
+            <a href="/Formacoes"><button>Mostrar formações</button></a>
+            <a href="/update_page"><button>Atualizar Informação</button></a>
+            <a href="/delete_page"><button>Deletar Informação</button></a>
+        </nav>
+    </header>
+    <div style="margin-top: 20px;">
+        <button onclick="ADDformacao()" id="">Adcionar formação</button>
+        <input type="text" placeholder="Formação..." style="height: 30px; width:200px;" id="formacao">    Inicio
+        <input type="number" style="height: 30px; width:50px;" placeholder="mês" min="1" max="12" id="mesInicio">
+        <input type="number" style="height: 30px; width:80px;" placeholder="ano" min="2004" max="2100" id="anoInicio"> Termino
+        <input type="number" style="height: 30px; width:50px;" placeholder="mês" min="1" max="12" id="mesFinal">
+        <input type="number" style="height: 30px; width:80px;" placeholder="ano" min="2004" max="2100" id="anoFinal">
+        <input type="text" style="height: 30px; width:80px;" placeholder= "Instituicao" id="instituicao">
+    </div>
+    <div id="feedback">
+        <div id="Curso"></div>
+        <div id="Instituicao"></div>
+        <div id="DataInicioFormacao"></div>
+        <div id="DataFinalFormacao"></div>
+    </div>
+</body>
+</html>

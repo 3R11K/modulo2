@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculo</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="/Formacoes"><button>Mostrar formações</button></a>
+            <a href="/AddPage"><button>Adicionar Formação</button></a>
+            <a href="/update_page"><button>Atualizar Informação</button></a>
+            <a href="/delete_page"><button>Deletar Informação</button></a>
+        </nav>
+    </header>
+    <script>document.addEventListener("DOMContentLoaded", function() {curriculo();});</script>
+    <div id="curriculo">
+        <div id="DadosPessoais">
+            <div id="descriptionCard" style="background-color: rgba(181, 179, 179, 0.922);">Dados Pessoais</div>
+        </div>
+        <div id="Habilidades">
+            <div id="descriptionCard" style="background-color: rgba(181, 179, 179, 0.922);">Habilidades</div>
+        </div>
+        <div id="Personalidade">
+            <div id="descriptionCard" style="background-color: rgba(181, 179, 179, 0.922);">Personalidade</div>
+        </div>
+    </div>
+    <div id="curriculoComData">
+        <div id="Formacao">
+            <section id="Curso">
+                <div id="descriptionCard" style="background-color: rgba(181, 179, 179, 0.922);">Formação</div>
+            </section>
+            <section id="Instituicao">
+                <div id="descriptionCard" style="background-color: rgba(181, 179, 179, 0.922);">Instituicão</div>
+            </section>
+            <section id="DataInicioFormacao">
+                <div id="descriptionCard" style="background-color: rgba(181, 179, 179, 0.922);">Data inicio</div>
+            </section>
+            <section id="DataFinalFormacao">
+                <div id="descriptionCard" style="background-color: rgba(181, 179, 179, 0.922);">Data Final</div>
+            </section>
+        </div>
+        <div id="Projetos">
+            <section id="PROJETOS">
+                <div id="descriptionCard" style="background-color: rgba(181, 179, 179, 0.922);">Projeto</div>
+            </section>
+            <section id="DataInicioProjetos">
+                <div id="descriptionCard" style="background-color: rgba(181, 179, 179, 0.922);">Data inicio</div>
+            </section>
+            <section id="DataFinalProjetos">
+                <div id="descriptionCard" style="background-color: rgba(181, 179, 179, 0.922);">Data Final</div>
+            </section>
+        </div>
+    </div>
+</body>
+</html>
