@@ -34,7 +34,7 @@ function listaFormacoes(){//http request para as formações
 };
 
 
-function ADDformacao(){//http request para adcionar formações pegando valores de inputs no html
+$("#ADDFormacao").click(function(){//http request para adcionar formações pegando valores de inputs no html
     var formacao = document.getElementById("formacao").value;
     var instituicao = document.getElementById("instituicao").value;
 
@@ -90,7 +90,7 @@ function ADDformacao(){//http request para adcionar formações pegando valores 
     };
     xhttp.send(json);
 
-};
+});
 
 function where(){//funcão para selecionar apenas uma linha das formações
     var id = document.getElementById("ID_FORMACAO").value;
