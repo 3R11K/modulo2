@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formação</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="/Formacoes"><button>Mostrar formações</button></a>
+            <a href="/AddPage"><button>Adicionar Formação</button></a>
+            <a href="/update_page"><button>Atualizar Informação</button></a>
+            <a href="/delete_page"><button>Deletar Informação</button></a>
+        </nav>
+    </header>
+    <div style="margin:20px;">
+        <input type="number" style="height: 30px; width:50px;" placeholder="id" min="1" id="ID_FORMACAO">
+        <button style="height: 30px; width: 60px;" onclick="where()">Select</button>
+    </div>
+    <div>
+        <input type="text" placeholder="Formação..." style="height: 30px; width:200px;" id="formacao">    Inicio
+        <input type="number" style="height: 30px; width:50px;" placeholder="mês" min="1" max="12" id="mesInicio">
+        <input type="number" style="height: 30px; width:80px;" placeholder="ano" min="2004" max="2100" id="anoInicio"> Termino
+        <input type="number" style="height: 30px; width:50px;" placeholder="mês" min="1" max="12" id="mesFinal">
+        <input type="number" style="height: 30px; width:80px;" placeholder="ano" min="2004" max="2100" id="anoFinal">
+        <input type="text" style="height: 30px; width:80px;" placeholder= "Instituicao" id="instituicao">
+        <button style="height: 30px; width: 60px;" onclick="update()">Update</button>
+    </div>
+    <div id="Formacao"></div>
+</body>
+</html>

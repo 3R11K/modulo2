@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formação</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="/"><button>Curriculo</button></a>
+            <a href="/AddPage"><button>Adicionar Formação</button></a>
+            <a href="/update_page"><button>Atualizar Formação</button></a>
+            <a href="/delete_page"><button>Deletar Formação</button></a>
+        </nav>
+    </header>
+    <script>$(document).ready(function(){listaFormacoes()})</script>
+    <div id="Formacao">
+        <section id="Curso">
+            <div id="descriptionCard" style="background-color: rgba(181, 179, 179, 0.922);">Formação</div>
+        </section>
+        <section id="Instituicao">
+            <div id="descriptionCard" style="background-color: rgba(181, 179, 179, 0.922);">Instituicão</div>
+        </section>
+        <section id="DataInicioFormacao">
+            <div id="descriptionCard" style="background-color: rgba(181, 179, 179, 0.922);">Data inicio</div>
+        </section>
+        <section id="DataFinalFormacao">
+            <div id="descriptionCard" style="background-color: rgba(181, 179, 179, 0.922);">Data Final</div>
+        </section>
+    </div>
+</body>
+</html>

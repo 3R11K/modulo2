@@ -95,7 +95,7 @@ function ADDformacao(){//http request para adcionar formações pegando valores 
 function where(){//funcão para selecionar apenas uma linha das formações
     var id = document.getElementById("ID_FORMACAO").value;
 
-
+    
     const xhttp = new XMLHttpRequest();
     var url = 'http://127.0.0.1:3031/update/' + id
 

@@ -1,0 +1,16 @@
+{
+    "name": "curriculo",
+    "version": "1.0.0",
+    "description": "Curriculo",
+    "main": "app.js",
+    "scripts": {
+      "start": "nodemon app.js"
+    },
+    "author": "Erik",
+    "license": "UNLICENSED",
+    "dependencies": {
+      "express": "^4.17.1",
+      "sqlite3": "^5.0.2",
+      "body-parser": "^1.19.0"
+    }
+  }
